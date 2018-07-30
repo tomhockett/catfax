@@ -2,4 +2,4 @@
 
 A fun little API to troll your friends! 😹
 
-![Cat pic](http://thecatapi.com/?id=cgl)
+![Cat pic](https://78.media.tumblr.com/tumblr_lqtgsvM8CC1qi2tlfo1_500.jpg)
