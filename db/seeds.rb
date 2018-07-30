@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+facts = JSON.parse(File.read('catfacts.json'))
+
+facts.each do |fact|
+  Fact.create!(fact: fact)
+end
