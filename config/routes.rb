@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
+  root 'facts#index'
+
   get '/index', to: 'facts#index'
   get 'facts/show'
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
