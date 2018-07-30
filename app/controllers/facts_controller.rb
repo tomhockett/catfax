@@ -4,6 +4,6 @@ class FactsController < ApplicationController
   end
 
   def show
-    render json: Fact.find(params[:id])
+    render json: Fact.find(params[:id]).fact
   end
 end
